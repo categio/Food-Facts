@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace Food_Facts
 {
-    public partial class Form1 : Form
+    public partial class NutritionForm : Form
     {
-        public Form1()
+        public NutritionForm()
         {
             InitializeComponent();
+        }
+
+        private void NutritionForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            //close the form
+            this.Close();
         }
     }
 }
